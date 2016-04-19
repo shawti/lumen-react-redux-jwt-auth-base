@@ -1,0 +1,35 @@
+$roboto-font-path:  "../fonts/roboto" !default;
+$icon-font-path:    "../fonts/bootstrap/" !default;
+$font-family-base: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+
+@import "vendor/bower/roboto-fontface/css/roboto-fontface.scss";
+@import "vendor/bower/bootstrap-sass/assets/stylesheets/bootstrap";
+
+body {
+    background-color: #e7ebee;
+    font-size: 16px;
+    color: #515151;
+}
+
+.sign-page {
+    margin: 80px auto 40px;
+}
+
+.sign-page .sign-section {
+    margin: 15px 0;
+    padding: 30px;
+}
+
+.sign-page .sign-helper {
+    color: #999;
+    font-size: 12px;
+}
+
+.sign-page .sign-helper .checkbox {
+    margin-top: 5px;
+}
+
+.sign-page .sign-helper .checkbox input[type="checkbox"] {
+    margin: 2px 0 0;
+    margin-left: -16px;
+}

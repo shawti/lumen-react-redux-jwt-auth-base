@@ -1,0 +1,21 @@
+# Packages
+/vendor
+/node_modules
+
+# PhpStorm configure
+.idea
+
+# Mac cache
+.DS_Store
+
+# Sass map
+*.map
+
+# Environment configure
+.env
+
+# Built resources
+/public/js
+/public/css
+/public/fonts
+/public/images

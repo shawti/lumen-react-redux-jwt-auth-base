@@ -1,0 +1,25 @@
+{
+    "name": "lumen-react-redux-jwt-auth-base",
+    "description": "",
+    "main": "",
+    "authors": [
+        "silenceExia <silenceExia@gmail.com>"
+    ],
+    "license": "MIT",
+    "moduleType": [
+        "globals"
+    ],
+    "homepage": "",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "roboto-fontface": "^0.4.5",
+        "bootstrap-sass": "^3.3.6"
+    }
+}
