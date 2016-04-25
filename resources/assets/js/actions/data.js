@@ -37,7 +37,7 @@ export function fetchProtectedData(token) {
             dispatch(receiveProtectedData(response.data, response.username));
         })
         .catch(error => {
-            if(error.response.status === 401) {
+            if(error.response.status === 400 || error.response.status === 401) {
                 dispatch(signinUserFailure(error));
                 dispatch(push('/signin'));
             }
