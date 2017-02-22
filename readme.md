@@ -7,6 +7,7 @@
 
 ```sh
 git clone https://github.com/silenceExia/lumen-react-redux-jwt-auth-base.git my-app && cd my-app
+composer install
 bower install
 npm install
 gulp
